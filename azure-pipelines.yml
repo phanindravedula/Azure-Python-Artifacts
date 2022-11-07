@@ -22,4 +22,4 @@ steps:
     artifactFeed: 'python-feed-test-01'
     
 - script: |
-   twine upload -r "python-feed-test-01" --config-file $(PYPIRC_PATH) dist/*
+   twine upload -r "python-feed-test-01" --config-file $(PYPIRC_PATH) --verbose dist/*
